@@ -36,15 +36,6 @@ function SingIn() {
 
                         }).then(function (res) {
                             console.log(res);
-
-                            // if(res == 600){
-                            //     swal.fire({
-                            //         title: "Error!",
-                            //         text: "No se pudo registrar, el correo ya existe",
-                            //         icon: "error",
-                            //         confirmButtonText: "Ok",
-                            //     });
-                            // }
                             
                             axios.post("/email", {
                                 nombre: values.name,
@@ -76,7 +67,6 @@ function SingIn() {
 
                         }).catch(function (error) {
                             console.log(error);
-                            alert("Hola, estoy mal!")
                             swal.fire({
                                 title: "Error!",
                                 text: "No se pudo registrar, revisa los campos nuevamente",
