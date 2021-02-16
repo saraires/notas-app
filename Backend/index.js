@@ -31,4 +31,4 @@ app.use('/', noteRoute);
 app.use('/', email);
 
 
-app.listen(5000, () => console.log("servidor corriendo el el puerto 5000"))
+app.listen(6000, () => console.log("servidor corriendo el el puerto 6000"))
