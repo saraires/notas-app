@@ -8,7 +8,6 @@ import TareasImportantes from './TareasImportantes';
 import Logo from "../Images/Logo.png";
 import importante from "../Images/importante.png";
 import usuario from "../Images/usuario.png";
-import DiaNoche from "../Images/Dia-Noche.png";
 
 function Menu() {
     const id = getFromLocal("id");
